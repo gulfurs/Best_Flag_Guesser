@@ -24,18 +24,18 @@ function App() {
     }
   };
 
-  const handleRestartButtonClick = () => {
+  const restartGame = () => {
     setCurrentQuestion(0);
     setShowScore(false);
     setScore(0);
-  };
+  }
 
   return (
     <div className="container">
       {showScore ? (
         <div className="score-section">
           You scored {score} out of {shuffledData.length}
-          <button onClick={handleRestartButtonClick}>Restart</button>
+          <button onClick={restartGame}>Restart</button>
         </div>
       ) : (
         <>
