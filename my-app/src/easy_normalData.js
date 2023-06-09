@@ -821,7 +821,212 @@ export const easy_normalData = [
         { text: "Slovenia", isCorrect: true },
         { text: "Austria", isCorrect: false }
       ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/so.png",
+      answers: [
+        { text: "Somalia", isCorrect: true },
+        { text: "Kenya", isCorrect: false },
+        { text: "Ethiopia", isCorrect: false },
+        { text: "Djibouti", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/za.png",
+      answers: [
+        
+        { text: "Botswana", isCorrect: false },
+        { text: "Zimbabwe", isCorrect: false },
+        { text: "South Africa", isCorrect: true },
+        { text: "Namibia", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/kr.png",
+      answers: [
+        
+        { text: "North Korea", isCorrect: false },
+        { text: "Japan", isCorrect: false },
+        { text: "China", isCorrect: false },
+        { text: "South Korea", isCorrect: true }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/es.png",
+      answers: [
+        
+        { text: "Italy", isCorrect: false },
+        { text: "Portugal", isCorrect: false },
+        { text: "France", isCorrect: false },
+        { text: "Spain", isCorrect: true }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/lk.png",
+      answers: [
+       
+        { text: "Maldives", isCorrect: false },
+        { text: "India", isCorrect: false },
+        { text: "Bangladesh", isCorrect: false },
+        { text: "Sri Lanka", isCorrect: true }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/se.png",
+      answers: [
+       
+        { text: "Norway", isCorrect: false },
+        { text: "Sweden", isCorrect: true },
+        { text: "Finland", isCorrect: false },
+        { text: "Denmark", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/ch.png",
+      answers: [
+       
+        { text: "Sweden", isCorrect: false },
+        { text: "Austria", isCorrect: false },
+        { text: "Germany", isCorrect: false },
+        { text: "Switzerland", isCorrect: true }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/sy.png",
+      answers: [
+       
+        { text: "Iraq", isCorrect: false },
+        { text: "Jordan", isCorrect: false },
+        { text: "Syria", isCorrect: true },
+        { text: "Lebanon", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/th.png",
+      answers: [
+        { text: "Thailand", isCorrect: true },
+        { text: "Cambodia", isCorrect: false },
+        { text: "Laos", isCorrect: false },
+        { text: "Myanmar", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/tn.png",
+      answers: [
+       
+        { text: "Morocco", isCorrect: false },
+        { text: "Algeria", isCorrect: false },
+        { text: "Tunisia", isCorrect: true },
+        { text: "Libya", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/tr.png",
+      answers: [
+       
+        { text: "Greece", isCorrect: false },
+        { text: "Turkey", isCorrect: true },
+        { text: "Bulgaria", isCorrect: false },
+        { text: "Georgia", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/ug.png",
+      answers: [
+        
+        { text: "Kenya", isCorrect: false },
+        { text: "Uganda", isCorrect: true },
+        { text: "Rwanda", isCorrect: false },
+        { text: "Tanzania", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/ua.png",
+      answers: [
+        
+        { text: "Belarus", isCorrect: false },
+        { text: "Ukraine", isCorrect: true },
+        { text: "Poland", isCorrect: false },
+        { text: "Russia", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/gb.png",
+      answers: [
+       
+        { text: "United States of America", isCorrect: false },
+        { text: "United Kingdom", isCorrect: true },
+        { text: "Canada", isCorrect: false },
+        { text: "Australia", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/us.png",
+      answers: [
+      
+        { text: "United Kingdom", isCorrect: false },
+        { text: "Canada", isCorrect: false },
+        { text: "United States of America", isCorrect: true },
+        { text: "Mexico", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/uy.png",
+      answers: [
+        { text: "Uruguay", isCorrect: true },
+        { text: "Argentina", isCorrect: false },
+        { text: "Brazil", isCorrect: false },
+        { text: "Paraguay", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/ve.png",
+      answers: [
+        { text: "Venezuela", isCorrect: true },
+        { text: "Colombia", isCorrect: false },
+        { text: "Ecuador", isCorrect: false },
+        { text: "Peru", isCorrect: false }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/vn.png",
+      answers: [
+      
+        { text: "China", isCorrect: false },
+        { text: "Laos", isCorrect: false },
+        { text: "Cambodia", isCorrect: false },
+        { text: "Vietnam", isCorrect: true }
+      ]
+    },
+    {
+      image: "https://flagpedia.net/data/flags/w580/ye.png",
+      answers: [
+       
+        { text: "Oman", isCorrect: false },
+        { text: "Saudi Arabia", isCorrect: false },
+        { text: "Qatar", isCorrect: false },
+        { text: "Yemen", isCorrect: true }
+      ]
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
       
 ];
     export default easy_normalData;

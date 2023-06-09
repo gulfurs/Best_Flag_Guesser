@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-
-import { data } from './data';
+// import { data } from './data';
 import { easy_normalData } from './easy_normalData';
 import { hardData } from './hardData';
 import { extremeData } from './extremeData';
 import { impossibleData } from './impossibleData';
-
 import StartMenu from './Menu';
 
 function App() {
@@ -14,11 +12,35 @@ function App() {
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
-  const [restartGame, setRestartGame] = useState(false);
+  const [shuffledData, setShuffledData] = useState([]);
+  const [shuffledAnswers, setShuffledAnswers] = useState([]);
 
-  // Randomize the order of the photos and answer options
-  const shuffledData = data.sort(() => Math.random() - 0.5);
-  const shuffledAnswers = shuffledData[currentQuestion].answers.sort(() => Math.random() - 0.5);
+  useEffect(() => {
+    if (selectedDifficulty === 'easy/normal') {
+      setShuffledData(shuffleArray(easy_normalData));
+    } else if (selectedDifficulty === 'hard') {
+      setShuffledData(shuffleArray(hardData));
+    } else if (selectedDifficulty === 'extreme') {
+      setShuffledData(shuffleArray(extremeData));
+    } else if (selectedDifficulty === 'impossible') {
+      setShuffledData(shuffleArray(impossibleData));
+    }
+  }, [selectedDifficulty]);
+
+  useEffect(() => {
+    if (shuffledData.length > 0) {
+      setShuffledAnswers(shuffleArray(shuffledData[currentQuestion]?.answers));
+    }
+  }, [shuffledData, currentQuestion]);
+
+  const shuffleArray = (array) => {
+    const shuffledArray = [...array];
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+    }
+    return shuffledArray;
+  };
 
   const handleAnswerButtonClick = (isCorrect) => {
     if (isCorrect) {
@@ -33,12 +55,11 @@ function App() {
     }
   };
 
-  const handleRestartButtonClick = () => {
+  const restartGame = () => {
     setCurrentQuestion(0);
     setShowScore(false);
     setScore(0);
     setSelectedDifficulty('');
-    setRestartGame(true);
   };
 
   const handleDifficultySelect = (difficulty) => {
@@ -46,64 +67,45 @@ function App() {
     setCurrentQuestion(0);
     setShowScore(false);
     setScore(0);
-    setRestartGame(false);
-  };
-
-  const getCurrentData = () => {
-    let dataToUse;
-    switch (selectedDifficulty) {
-      case 'easy/normal':
-        dataToUse = easy_normalData;
-        break;
-      case 'hard':
-        dataToUse = hardData;
-        break;
-      case 'extreme':
-        dataToUse = extremeData;
-        break;
-      case 'impossible':
-        dataToUse = impossibleData;
-        break;
-      default:
-        dataToUse = [];
-        break;
-    }
-    return dataToUse.sort(() => Math.random() - 0.5);
   };
 
   return (
     <div className="container">
-      {selectedDifficulty === '' || restartGame ? (
+      {selectedDifficulty === '' ? (
         <StartMenu onSelectDifficulty={handleDifficultySelect} />
       ) : (
         <>
           {showScore ? (
             <div className="score-section">
               <h1>You scored {score} out of 20</h1>
-              <button onClick={handleRestartButtonClick}>Restart</button>
+              <button onClick={restartGame}>Restart</button>
             </div>
           ) : (
             <>
-              <div className="image-container">
-                <img src={getCurrentData()[currentQuestion].image} alt="Question" />
-              </div>
-              <div className="answers-container">
-                <ul>
-                  {getCurrentData()[currentQuestion].answers.map((answer, index) => (
-                    <li key={index} onClick={() => handleAnswerButtonClick(answer.isCorrect)}>
-                      {answer.text}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {shuffledData.length > 0 ? (
+                <>
+                  <div className="image-container">
+                    <img src={shuffledData[currentQuestion].image} alt="Question" />
+                  </div>
+                  <div className="answers-container">
+                    <ul>
+                      {shuffledAnswers.map((answer, index) => (
+                        <li key={index} onClick={() => handleAnswerButtonClick(answer.isCorrect)}>
+                          {answer.text}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </>
+              ) : (
+                <p>Loading...</p>
+              )}
             </>
           )}
         </>
       )}
     </div>
   );
-
-  
 }
 
 export default App;
