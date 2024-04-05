@@ -20,34 +20,34 @@ export const impossibleData = [
   {
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Circassian_flag.svg/255px-Circassian_flag.svg.png",
     answers: [
-      { text: "Adygea/Circassian", isCorrect: true },
+      { text: "Adygea", isCorrect: true },
       { text: "Buryatia", isCorrect: false },
       { text: "Quebec", isCorrect: false },
       { text: "Una Sana", isCorrect: false }
     ]
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Accompong.svg/100px-Flag_of_Accompong.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_Western_Australia.svg/130px-Flag_of_Western_Australia.svg.png",
     answers: [
-      { text: "Accompong", isCorrect: true },
+      { text: "Western Australia", isCorrect: true },
       { text: "Bnei Menashe", isCorrect: false },
       { text: "EnenKio", isCorrect: false },
       { text: "New Ireland", isCorrect: false }
     ]
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/MNLA_flag.svg/125px-MNLA_flag.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Victoria_%28Australia%29.svg/130px-Flag_of_Victoria_%28Australia%29.svg.png",
     answers: [
-      { text: "Azawad", isCorrect: true },
+      { text: "Victoria (state)", isCorrect: true },
       { text: "Borohradek", isCorrect: false },
       { text: "Hunza", isCorrect: false },
       { text: "Votice", isCorrect: false }
     ]
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Acadia.svg/220px-Flag_of_Acadia.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Tasmania.svg/130px-Flag_of_Tasmania.svg.png",
     answers: [
-      { text: "Acadia", isCorrect: true },
+      { text: "Tasmania", isCorrect: true },
       { text: "Belgorod", isCorrect: false },
       { text: "Labrador", isCorrect: false },
       { text: "Kaluga Oblast", isCorrect: false }
@@ -108,16 +108,16 @@ export const impossibleData = [
     ]
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_Avars.svg/125px-Flag_of_Avars.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_South_Australia.svg/130px-Flag_of_South_Australia.svg.png",
     answers: [
-      { text: "Avars Khanate", isCorrect: true },
+      { text: "South Australia", isCorrect: true },
       { text: "Bougainville", isCorrect: false },
       { text: "Maartensdijk", isCorrect: false },
       { text: "South Yemen", isCorrect: false }
     ]
   },
   {
-    image: "https://www.printscorpio.fi/WebRoot/Kaupat/Shops/Lippute/5423/CFF0/1B73/81E9/5511/0A28/100B/CECD/Bougainville_s_ml.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_Bougainville.svg/125px-Flag_of_Bougainville.svg.png",
     answers: [
       { text: "Bougainville", isCorrect: true },
       { text: "Lombardy", isCorrect: false },
@@ -135,7 +135,7 @@ export const impossibleData = [
     ]
   },
   {
-    image: "https://australianbartender.com.au/wp-content/uploads/2011/01/bali-flag-453x302.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_Bali.svg/143px-Flag_of_Bali.svg.png",
     answers: [
       { text: "Bali", isCorrect: true },
       { text: "Murrawarri Republic", isCorrect: false },
@@ -162,18 +162,18 @@ export const impossibleData = [
     ]
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Bnei_Menashe.svg/150px-Flag_of_Bnei_Menashe.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Flag_of_Burgenland_%28state%29.svg/600px-Flag_of_Burgenland_%28state%29.svg.png?20200511154445",
     answers: [
-      { text: "Bnei Menashe", isCorrect: true },
+      { text: "Burgenland", isCorrect: true },
       { text: "EnenKio", isCorrect: false },
       { text: "New Ireland", isCorrect: false },
       { text: "Ciskei", isCorrect: false }
     ]
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Flag_of_Borohradek.svg/100px-Flag_of_Borohradek.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Carinthia_%28state%29.svg/800px-Flag_of_Carinthia_%28state%29.svg.png?20200710080835",
     answers: [
-      { text: "Borohradek", isCorrect: true },
+      { text: "Carinthia", isCorrect: true },
       { text: "Hunza", isCorrect: false },
       { text: "Votice", isCorrect: false },
       { text: "Upice", isCorrect: false }
@@ -189,9 +189,9 @@ export const impossibleData = [
     ]
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Flag_of_Barotseland.svg/125px-Flag_of_Barotseland.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/ROU_AR_Arad_Flag.svg/800px-ROU_AR_Arad_Flag.svg.png?20061010175826",
     answers: [
-      { text: "Barotseland", isCorrect: true },
+      { text: "Arad", isCorrect: true },
       { text: "Rurutu", isCorrect: false },
       { text: "Kurdistan", isCorrect: false },
       { text: "Jinbei", isCorrect: false }
@@ -207,9 +207,9 @@ export const impossibleData = [
     ]
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/125px-Flag_of_Catalonia.svg.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Lower_Austria_%28state%29.svg/600px-Flag_of_Lower_Austria_%28state%29.svg.png?20210528112200",
     answers: [
-      { text: "Catalinia", isCorrect: true },
+      { text: "Lower Austria", isCorrect: true },
       { text: "Chelyabinsk", isCorrect: false },
       { text: "Cornwall (Saint Piran)", isCorrect: false },
       { text: "Saar", isCorrect: false }
