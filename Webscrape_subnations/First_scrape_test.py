@@ -18,8 +18,8 @@ if page.status_code == 200:
     img_tags = soup.find_all('img')
 
     # Extract and print the text of h2 tags
-    for h2 in h2_tags:
-        print(h2.text.strip())
+    #for h2 in h2_tags:
+    #    print(h2.text.strip())
 
     image_urls = []
     for img in img_tags:

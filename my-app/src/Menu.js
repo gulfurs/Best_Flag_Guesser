@@ -18,6 +18,9 @@ function StartMenu({ onSelectDifficulty }) {
             <Link to="/gallery">
                 <button>Go to Gallery</button>
             </Link>
+            <Link to="/SubQuiz">
+                <button>SubNations</button>
+            </Link>
         </div>
     );
 }
