@@ -18,13 +18,13 @@
   color: #3E3232;
 } 
 
-.start-menu h2{
+.start-menu h2 .link-buttons h2{
   margin-top: 1em;
   font-size: 40px;
   color: #3E3232;
 } 
 
-.start-menu button{
+.start-menu button, .link-buttons button{
     width: 300px; 
     background-color:#2D3250;
     color: #F9E8D9;
@@ -41,6 +41,10 @@
     cursor: pointer;
   }
 
-  .select-diff{
+.select-diff{
     background-color: transparent;
   }
+
+.link-buttons {
+  background-color: #F7B787;
+}

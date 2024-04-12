@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import subnations from './All_subnations';
+import easy_normalData from './easy_normalData';
 import './App.css';
 
 function QuizPage() {
@@ -12,9 +12,9 @@ function QuizPage() {
   }, []);
 
   const generateQuestion = () => {
-    const matchingPair = subnations[Math.floor(Math.random() * subnations.length)];
-    const distractors = subnations
-      .filter(subnation => subnation !== matchingPair)
+    const matchingPair = easy_normalData[Math.floor(Math.random() * easy_normalData.length)];
+    const distractors = easy_normalData
+      .filter(answer => !answer.isCorrect)
       .sort(() => Math.random() - 0.5)
       .slice(0, 3);
 

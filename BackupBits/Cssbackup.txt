@@ -1,7 +1,6 @@
-div{
-  background-color: #527853;
-}
-
+----------------------------------
+app.js backup
+---------------------------------
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -40,11 +39,6 @@ img {
   height: 25em;
 }
 
-.image-container img {
-  width: 200px;
-  height: 110px;
-}
-
 .score-section {
   display: flex;
   flex-direction: column;
@@ -66,25 +60,6 @@ img {
   cursor: pointer;
 }
 
-/* Navbar css */
-
-.nav-links {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.nav-links a {
-  margin: 0 10px;
-  padding: 10px;
-  color: #333;
-  text-decoration: none;
-  border: 1px solid #333;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.nav-links a:hover {
-  background-color: #333;
-  color: #fff;
-}
+----------------------------------
+app.js backup
+---------------------------------
