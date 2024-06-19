@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 # URL of the webpage to scrape
-url = "https://commons.wikimedia.org/wiki/Flags_of_country_subdivisions"
+url = "https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags"
 
 # Send a GET request to the URL
 response = requests.get(url)
@@ -24,5 +24,5 @@ for img in image_tags:
     image_alt_list.append({"image": image_url, "name": alt_text})
 
 # Write the image-alt pairs to a JSON file
-with open("image_alt_data.json", "w") as f:
+with open("Sovereign_list.json", "w") as f:
     json.dump(image_alt_list, f, indent=2)

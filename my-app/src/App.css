@@ -1,6 +1,9 @@
-div{
+
+
+#root{
   background-color: #527853;
 }
+
 
 ul {
   display: flex;
@@ -41,8 +44,8 @@ img {
 }
 
 .image-container img {
-  width: 200px;
-  height: 110px;
+  width: 400px;
+  height: 220px;
 }
 
 .score-section {
@@ -62,7 +65,7 @@ img {
 }
 .score-section button:hover {
   background-color:lightblue;
-  color: darkblue;
+  color: #2D3250;
   cursor: pointer;
 }
 
@@ -71,13 +74,15 @@ img {
 .nav-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 
 .nav-links a {
-  margin: 0 10px;
+  margin: 10px 20px;
   padding: 10px;
-  color: #333;
+  color: #F9E8D9;
+  background-color: #2D3250;
   text-decoration: none;
   border: 1px solid #333;
   border-radius: 5px;
@@ -85,6 +90,7 @@ img {
 }
 
 .nav-links a:hover {
-  background-color: #333;
-  color: #fff;
+  background-color:#7077A1;
+  color: #2D3250;
+  cursor: pointer;
 }

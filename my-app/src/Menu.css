@@ -2,7 +2,7 @@
     height: 90vh;
     width: 80vw;
     background-color: #F7B787;
-    border-radius: 20%;
+    border-radius: 170px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
 }
 
@@ -18,20 +18,20 @@
   color: #3E3232;
 } 
 
-.start-menu h2 .link-buttons h2{
-  margin-top: 1em;
-  font-size: 40px;
+.start-menu h2{
+  font-size: 36px;
   color: #3E3232;
-} 
+}
+
 
 .start-menu button, .link-buttons button{
     width: 300px; 
     background-color:#2D3250;
     color: #F9E8D9;
-    padding: 60px;
+    padding: 50px;
     margin-top: 2.5em;
     margin-inline: 30px;
-    font-size: 2em;
+    font-size: 1.8em;
     border-radius: 20px;
     cursor: pointer;
 }

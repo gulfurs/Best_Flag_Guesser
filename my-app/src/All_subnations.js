@@ -98,7 +98,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Bandera_de_la_Ciudad_de_Buenos_Aires.svg/156px-Bandera_de_la_Ciudad_de_Buenos_Aires.svg.png",
-      name: "Buenos Aires"
+      name: "Buenos Aires (city)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Bandera_de_la_Provincia_de_Buenos_Aires.svg/156px-Bandera_de_la_Provincia_de_Buenos_Aires.svg.png",
@@ -222,7 +222,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_the_Northern_Territory.svg/200px-Flag_of_the_Northern_Territory.svg.png",
-      name: "Northern Territory"
+      name: "Northern Territory (of Australia)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_Christmas_Island.svg/200px-Flag_of_Christmas_Island.svg.png",
@@ -274,7 +274,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bahrain_Capital_Governorate_Flag.svg/133px-Bahrain_Capital_Governorate_Flag.svg.png",
-      name: "Capital"
+      name: "Bahrain Capital Governorate"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Bahrain_Muharraq_Governorate_Flag.svg/133px-Bahrain_Muharraq_Governorate_Flag.svg.png",
@@ -282,7 +282,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bahrain_Northern_Governorate_Flag.svg/133px-Bahrain_Northern_Governorate_Flag.svg.png",
-      name: "Northern"
+      name: "Northern Governorate (Bahrain)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bahrain_Southern_Governorate_Flag.svg/133px-Bahrain_Southern_Governorate_Flag.svg.png",
@@ -482,7 +482,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg/143px-Bandeira_do_Distrito_Federal_%28Brasil%29.svg.png",
-      name: "Federal District"
+      name: "Bandeira do Distrito"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Alberta.svg/200px-Flag_of_Alberta.svg.png",
@@ -578,7 +578,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Magallanes%2C_Chile.svg/150px-Flag_of_Magallanes%2C_Chile.svg.png",
-      name: "Magallanes Region"
+      name: " Magallanes y la Antártica Chilena Region"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Maule%2C_Chile.svg/150px-Flag_of_Maule%2C_Chile.svg.png",
@@ -1310,7 +1310,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Departamento_de_La_Uni%C3%B3n.svg/160px-Departamento_de_La_Uni%C3%B3n.svg.png",
-      name: "La Uni\u00f3n"
+      name: "La Uni\u00f3n (El Salvador)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Moraz%C3%A1n_Department.svg/167px-Flag_of_Moraz%C3%A1n_Department.svg.png",
@@ -1742,7 +1742,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bandera_del_Departamento_Guatemala.svg/156px-Bandera_del_Departamento_Guatemala.svg.png",
-      name: "Guatemala"
+      name: "Bandera del Departamento Guatemala"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Huehuetenango.gif/158px-Flag_of_Huehuetenango.gif",
@@ -3046,7 +3046,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Central_Region%2C_Malta.gif/150px-Flag_of_Central_Region%2C_Malta.gif",
-      name: "Central"
+      name: "Central Region (Malta)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Gozo.svg/150px-Flag_of_Gozo.svg.png",
@@ -3054,11 +3054,11 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Northern_Region%2C_Malta.gif/150px-Flag_of_Northern_Region%2C_Malta.gif",
-      name: "Northern"
+      name: "Northern Region (Malta)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Southeastern_Region%2C_Malta.gif/150px-Flag_of_Southeastern_Region%2C_Malta.gif",
-      name: "South Eastern"
+      name: "South Eastern (Malta)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Southern_Region%2C_Malta.gif/150px-Flag_of_Southern_Region%2C_Malta.gif",
@@ -3118,7 +3118,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_the_State_of_Mexico.svg/175px-Flag_of_the_State_of_Mexico.svg.png",
-      name: "Mexico"
+      name: "State of Mexico"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Mexico_City%2C_Mexico.svg/175px-Flag_of_Mexico_City%2C_Mexico.svg.png",
@@ -4074,7 +4074,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Central_Province%2C_Papua_New_Guinea.svg/199px-Flag_of_Central_Province%2C_Papua_New_Guinea.svg.png",
-      name: "Central Province"
+      name: "Central Province (Papua New Guinea)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Chimbu.svg/151px-Flag_of_Chimbu.svg.png",
@@ -4130,7 +4130,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_NCD.svg/150px-Flag_of_NCD.svg.png",
-      name: "National Capital District"
+      name: "National Capital District (Papua New Guinea)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_New_Ireland.svg/149px-Flag_of_New_Ireland.svg.png",
@@ -4154,7 +4154,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Western_Province.svg/148px-Flag_of_Western_Province.svg.png",
-      name: "Western Province"
+      name: "Western Province (Papua New Guinea)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Alto_Paraguay_Department.svg/159px-Flag_of_Alto_Paraguay_Department.svg.png",
@@ -4190,7 +4190,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Flag_of_Central_Department%2C_Paraguay.svg/164px-Flag_of_Central_Department%2C_Paraguay.svg.png",
-      name: "Central"
+      name: "Central Department (Paraguay)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_Concepci%C3%B3n_Department.svg/160px-Flag_of_Concepci%C3%B3n_Department.svg.png",
@@ -5158,7 +5158,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Flag_of_Central_Province_Solomon_Islands.png/200px-Flag_of_Central_Province_Solomon_Islands.png",
-      name: "Central"
+      name: "Central Province (Solomon Islands)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Flag_of_Choiseul.png/200px-Flag_of_Choiseul.png",
@@ -5190,7 +5190,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Western_Province_Solomon_Islands.png/200px-Flag_of_Western_Province_Solomon_Islands.png",
-      name: "Western"
+      name: "Western Province Solomon Islands"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Honiara.svg/200px-Flag_of_Honiara.svg.png",
@@ -5358,11 +5358,11 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Central_Province.png/150px-Central_Province.png",
-      name: "Central Province"
+      name: "Central Province (Sri Lanka)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Eastern_Province_Flag_%28SRI_LANKA%29.png/160px-Eastern_Province_Flag_%28SRI_LANKA%29.png",
-      name: "Eastern Province"
+      name: "Eastern Province (Sri Lanka)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_North_Central_Province_Sri_Lanka.png/167px-Flag_of_the_North_Central_Province_Sri_Lanka.png",
@@ -5370,7 +5370,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flag_of_the_North_Western_Province_%28Sri_Lanka%29.svg/200px-Flag_of_the_North_Western_Province_%28Sri_Lanka%29.svg.png",
-      name: "North Western Province"
+      name: "North Western Province (Sri Lanka)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_Northern_Province.svg/175px-Flag_of_the_Northern_Province.svg.png",
@@ -5382,7 +5382,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_the_Southern_Province_%28Sri_Lanka%29.PNG/167px-Flag_of_the_Southern_Province_%28Sri_Lanka%29.PNG",
-      name: "Southern Province"
+      name: "Southern Province (Sri Lanka)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_the_Uva_Province_%28Sri_Lanka%29_SVG.svg/143px-Flag_of_the_Uva_Province_%28Sri_Lanka%29_SVG.svg.png",
@@ -5390,7 +5390,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Western_Province_Flag_%28SRI_LANKA%29.png/213px-Western_Province_Flag_%28SRI_LANKA%29.png",
-      name: "Western Province"
+      name: "Western Province (Sri Lanka)"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Khartoum_Wilayah.png/150px-Flag_of_Khartoum_Wilayah.png",

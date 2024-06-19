@@ -9,7 +9,7 @@ function StartMenu() {
         <h1>Flag Frenzy Quiz</h1>
         <h2>Select Difficulty:</h2>
             <div className='select-diff'>
-            <Link to="/Easy_normal_page">
+            {/* <Link to="/Easy_normal_page">
                 <button>Easy/Normal</button>
             </Link>
             <Link to="/Quizapp">
@@ -20,11 +20,14 @@ function StartMenu() {
             </Link>
             <Link to="/quiz?difficulty=impossible">
                 <button>Impossible</button>
+            </Link> */}
+            <Link to="/NationQuiz">
+                <button>All Nations</button>
             </Link>
             </div>
         <div className="link-buttons">
           <Link to="/gallery">
-            <button>Go to Gallery</button>
+            <button>Go to SubNations Gallery</button>
           </Link>
           <Link to="/subquiz">
             <button>SubNations Quiz</button>
