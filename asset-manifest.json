@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Best_Flag_Guesser/static/css/main.fee46318.css",
-    "main.js": "/Best_Flag_Guesser/static/js/main.f28a958a.js",
+    "main.css": "/Best_Flag_Guesser/static/css/main.fb42c791.css",
+    "main.js": "/Best_Flag_Guesser/static/js/main.c0b5b474.js",
     "static/js/787.28cb0dcd.chunk.js": "/Best_Flag_Guesser/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Easy_normal_page": "/Best_Flag_Guesser/static/media/Easy_normal_page.ba89805d1ae2a676497c",
     "index.html": "/Best_Flag_Guesser/index.html",
-    "main.fee46318.css.map": "/Best_Flag_Guesser/static/css/main.fee46318.css.map",
-    "main.f28a958a.js.map": "/Best_Flag_Guesser/static/js/main.f28a958a.js.map",
+    "main.fb42c791.css.map": "/Best_Flag_Guesser/static/css/main.fb42c791.css.map",
+    "main.c0b5b474.js.map": "/Best_Flag_Guesser/static/js/main.c0b5b474.js.map",
     "787.28cb0dcd.chunk.js.map": "/Best_Flag_Guesser/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fee46318.css",
-    "static/js/main.f28a958a.js"
+    "static/css/main.fb42c791.css",
+    "static/js/main.c0b5b474.js"
   ]
 }
