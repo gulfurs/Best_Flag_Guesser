@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Best_Flag_Guesser/static/css/main.fb42c791.css",
+    "main.js": "/Best_Flag_Guesser/static/js/main.1cd6c955.js",
+    "static/js/787.d4aba7ab.chunk.js": "/Best_Flag_Guesser/static/js/787.d4aba7ab.chunk.js",
+    "static/media/Easy_normal_page": "/Best_Flag_Guesser/static/media/Easy_normal_page.ba89805d1ae2a676497c",
+    "index.html": "/Best_Flag_Guesser/index.html",
+    "main.fb42c791.css.map": "/Best_Flag_Guesser/static/css/main.fb42c791.css.map",
+    "main.1cd6c955.js.map": "/Best_Flag_Guesser/static/js/main.1cd6c955.js.map",
+    "787.d4aba7ab.chunk.js.map": "/Best_Flag_Guesser/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb42c791.css",
+    "static/js/main.1cd6c955.js"
+  ]
+}
