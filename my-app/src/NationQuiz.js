@@ -14,7 +14,7 @@ function QuizPage() {
   const generateQuestion = () => {
     const matchingPair = nations[Math.floor(Math.random() * nations.length)];
     const distractors = nations
-      .filter(subnation => subnation !== matchingPair)
+       .filter(nation => nation !== matchingPair)
       .sort(() => Math.random() - 0.5)
       .slice(0, 3);
 
