@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import subnations from './All_subnations';
-import easy_normalData from './TheOLDData/easy_normalData';
-import hardData  from './TheOLDData/hardData';
-import extremeData from './TheOLDData/extremeData';
-import impossibleData from './TheOLDData/impossibleData';
-import StartMenu from './Menu';
+import subnations from '../All_subnations';
+import easy_normalData from './easy_normalData';
+import hardData  from './hardData';
+import extremeData from './extremeData';
+import impossibleData from './impossibleData';
+import StartMenu from '../Menu';
 
 function QuizApp() {
   const [currentQuestion, setCurrentQuestion] = useState({});

@@ -286,7 +286,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bahrain_Southern_Governorate_Flag.svg/133px-Bahrain_Southern_Governorate_Flag.svg.png",
-      name: "Southern"
+      name: "Bahrain Southern Governorate"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Brest_Voblast%2C_Belarus.svg/200px-Flag_of_Brest_Voblast%2C_Belarus.svg.png",
@@ -3062,7 +3062,7 @@ export const subnations =
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Southern_Region%2C_Malta.gif/150px-Flag_of_Southern_Region%2C_Malta.gif",
-      name: "Southern"
+      name: "Southern Region of Malta"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Aguascalientes.svg/175px-Flag_of_Aguascalientes.svg.png",
