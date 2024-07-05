@@ -1,41 +1,49 @@
-.start-menu {
-    height: 90vh;
-    width: 80vw;
-    background-color: #F7B787;
-    border-radius: 170px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
 
-.start-menu{
+.start-menu {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
+  height: 80vh;
+  width: 75vw;
+  background-color: #F7B787;
+  border-radius: 170px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
 .start-menu h1{
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 60px;
-  color: #3E3232;
+  letter-spacing: 4px;
+  color: #393232;
 } 
 
 .start-menu h2{
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 36px;
-  color: #3E3232;
+  letter-spacing: 4px;
+  color: #393232;
 }
 
 
 .start-menu button, .link-buttons button{
-    width: 300px; 
+    width: 350px; 
     background-color:#2D3250;
     color: #F9E8D9;
     padding: 50px;
-    margin-top: 2.5em;
+    margin-top: 50px;
     margin-inline: 30px;
     font-size: 1.8em;
     border-radius: 20px;
-    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
 }
-.start-menu button:hover {
+.start-menu button:hover, .link-buttons button:hover {
     background-color:#7077A1;
     color: #2D3250;
     cursor: pointer;
