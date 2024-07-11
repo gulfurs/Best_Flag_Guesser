@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import US_State_Flags from './US_State_Flags';
+import Russia_flags from './Russia_flags';
 import './App.css';
 
 function QuizPage() {
@@ -12,9 +12,9 @@ function QuizPage() {
   }, []);
 
   const generateQuestion = () => {
-    const matchingPair = US_State_Flags[Math.floor(Math.random() * US_State_Flags.length)];
-    const distractors = US_State_Flags
-      .filter(US_State_Flag => US_State_Flag !== matchingPair)
+    const matchingPair = Russia_flags[Math.floor(Math.random() * Russia_flags.length)];
+    const distractors = Russia_flags
+      .filter(Russia_flag => Russia_flag !== matchingPair)
       .sort(() => Math.random() - 0.5)
       .slice(0, 3);
 
@@ -39,7 +39,7 @@ function QuizPage() {
 
   return (
     <div className='score-section'>
-      <h1>US State Quiz</h1>
+      <h1>Russian federal subjects quiz</h1>
       <div className='image-container'>
         <img src={question.image} alt="Subnation Flag" />
       </div>

@@ -6,6 +6,7 @@ import Gallery from './Gallery';
 import StartMenu from './Menu';
 import SubQuiz from './SubQuiz';
 import NationQuiz from "./NationQuiz";
+import RussiaQuiz from "./RussiaQuiz";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Link to='/SubQuiz'>SubQuiz</Link>
         <Link to='/NationQuiz'>NationQuiz</Link>
         <Link to='/US_StateQuiz'>US State Flags</Link>
+        <Link to='/RussiaQuiz'>Russian Flags</Link>
       </div>
       <div className='container'>
       <Routes>
@@ -25,6 +27,7 @@ function App() {
         <Route path='/Gallery' element={<Gallery/>} />
         <Route path='/SubQuiz' element={<SubQuiz/>} />
         <Route path='/NationQuiz' element={<NationQuiz/>} />
+        <Route path='/RussiaQuiz' element={<RussiaQuiz/>} />
 
       </Routes>
       </div>

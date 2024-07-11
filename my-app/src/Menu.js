@@ -12,17 +12,21 @@ function StartMenu() {
             <Link to="/NationQuiz">
                 <button>All Nations</button>
             </Link>
-            <Link to="/US_StateQuiz">
-                <button>US State Flags</button>
-            </Link>
+            <Link to="/subquiz">
+            <button>SubNations Quiz</button>
+          </Link>
             </div>
         <div className="link-buttons">
           <Link to="/gallery">
             <button>Go to SubNations Gallery</button>
           </Link>
-          <Link to="/subquiz">
-            <button>SubNations Quiz</button>
-          </Link>
+          
+          <Link to="/US_StateQuiz">
+                <button>US State Flags</button>
+            </Link>
+            <Link to="/RussiaQuiz">
+                <button>Russian Flags</button>
+            </Link>
         </div>
       </div>
     );
