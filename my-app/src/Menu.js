@@ -7,13 +7,10 @@ function StartMenu() {
     return (
      <div className="start-menu">
         <h1>Flag Frenzy Quiz</h1>
-        <h2>Select Difficulty:</h2>
+        <h2>Select Quiz:</h2>
             <div className='select-diff'>
-            <Link to="/NationQuiz">
-                <button>All Nations</button>
-            </Link>
-            <Link to="/subquiz">
-            <button>SubNations Quiz</button>
+            <Link to="/QuizPage">
+            <button>Go Quiz page</button>
           </Link>
             </div>
         <div className="link-buttons">
@@ -21,12 +18,6 @@ function StartMenu() {
             <button>Go to SubNations Gallery</button>
           </Link>
           
-          <Link to="/US_StateQuiz">
-                <button>US State Flags</button>
-            </Link>
-            <Link to="/RussiaQuiz">
-                <button>Russian Flags</button>
-            </Link>
         </div>
       </div>
     );
