@@ -1,40 +1,39 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; // Import Routes instead of Switch
-import US_StateQuiz from './US_StateQuiz';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Gallery from './Gallery';
 import StartMenu from './Menu';
-import SubQuiz from './SubQuiz';
-import NationQuiz from "./NationQuiz";
-import RussiaQuiz from "./RussiaQuiz";
-import QuizPage from "./QuizPage";
+import QuizMenu from './QuizMenu';
+import QuizPage from './QuizPage';
+
+// Import the data for different quizzes
+import { Allnations } from './All_nations';
+import { subnations } from './All_subnations';
+import { Russia_flags } from './Russia_flags';
+import { US_State_Flags } from './US_State_Flags';
 
 function App() {
   return (
-  <Router>
+    <Router>
       <div className='nav-links'>
         <Link to='/'>Home</Link>
-        <Link to='/Gallery'>Gallery</Link>
-        <Link to='/QuizPage'>Quizzes</Link>
-        <Link to='/SubQuiz'>SubQuiz</Link>
-        {/* <Link to='/NationQuiz'>NationQuiz</Link>
-        <Link to='/US_StateQuiz'>US State Flags</Link>
-        <Link to='/RussiaQuiz'>Russian Flags</Link> */}
+        <Link to='/gallery'>Gallery</Link>
+        <Link to='/quiz-menu'>Quizzes</Link>
       </div>
       <div className='container'>
-      <Routes>
-        <Route path='/' element={<StartMenu/>} />
-        <Route path='/US_StateQuiz' element={<US_StateQuiz/>} />
-        <Route path='/Gallery' element={<Gallery/>} />
-        <Route path='/SubQuiz' element={<SubQuiz/>} />
-        <Route path='/NationQuiz' element={<NationQuiz/>} />
-        <Route path='/RussiaQuiz' element={<RussiaQuiz/>} />
-        <Route path='/QuizPage' element={<QuizPage/>} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<StartMenu />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/quiz-menu' element={<QuizMenu />} />
+
+          {/* Routes for each quiz, passing the appropriate data */}
+          <Route path='/nation-quiz' element={<QuizPage title="All Nations Quiz" flags={Allnations} />} />
+          <Route path='/us-state-quiz' element={<QuizPage title="US State Flags Quiz" flags={US_State_Flags} />} />
+          <Route path='/russia-quiz' element={<QuizPage title="Russian Federal Subjects Quiz" flags={Russia_flags} />} />
+          <Route path='/subnations-quiz' element={<QuizPage title="Subnations Quiz" flags={subnations} />} />
+        </Routes>
       </div>
-      </Router>
+    </Router>
   );
 }
 
 export default App;
-

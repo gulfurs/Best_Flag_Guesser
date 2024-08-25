@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Russia_flags from './Russia_flags';
+import Russia_flags from '../Russia_flags';
 import './App.css';
 
 function QuizPage() {
