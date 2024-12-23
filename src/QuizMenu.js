@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import './quizmenu.css'; 
 import { Link } from 'react-router-dom';
+import Globe from './globe';
 
 function QuizMenu() {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -20,6 +21,7 @@ function QuizMenu() {
               <Link to="/nations-quiz-list">
                   <button className="quiz-button">Nations Quiz</button>
               </Link>
+              </div>
               <div className="dropdown-container">
                   <button className="quiz-button dropdown-button" onClick={toggleDropdown}>
                       Specific Nations {dropdownVisible ? '▲' : '▼'}
@@ -36,8 +38,11 @@ function QuizMenu() {
                       </div>
                   )}
               </div>
-          </div>
+              <div className="globe-container-quiz">
+                <Globe /> 
+              </div>
       </div>
+
   );
 }
 

@@ -11,11 +11,11 @@ function StartMenu() {
             <p className="undertitle-text">Test your knowledge of flags from around the world!</p>
             <div className="content-container">
                 <div className='select-diff'>
-                  <Link to="/gallery">
-                      <button>Go to Gallery</button>
-                  </Link>
                   <Link to="/quiz-menu">
                       <button>Go to Quiz Menu</button>
+                  </Link>
+                  <Link to="/gallery">
+                      <button>Go to Gallery</button>
                   </Link>
                 </div>
                 <div className="globe-container">

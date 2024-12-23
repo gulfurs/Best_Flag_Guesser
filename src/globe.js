@@ -16,10 +16,6 @@ const Globe = () => {
     renderer.setSize(width*2.2, height*1.3);
     globeRef.current.appendChild(renderer.domElement);
 
-    const light = new THREE.DirectionalLight(0xffffff, 1);
-    light.position.set(5, 5, 5).normalize();
-    scene.add(light);
-
     // Create the globe
     const textureLoader = new THREE.TextureLoader();
     const earthTexture = textureLoader.load(earthTextureImg); 
@@ -32,7 +28,7 @@ const Globe = () => {
     // Animate the globe
     const animate = () => {
       requestAnimationFrame(animate);
-      globe.rotation.y += 0.01;
+      globe.rotation.y += 0.005;
       renderer.render(scene, camera);
     };
     animate();

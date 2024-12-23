@@ -16,14 +16,14 @@ function App() {
     <Router>
       <div className='nav-links'>
         <Link to='/'>Home</Link>
-        <Link to='/gallery'>Gallery</Link>
         <Link to='/quiz-menu'>Quizzes</Link>
+        <Link to='/gallery'>Gallery</Link>
       </div>
       <div className='container'>
         <Routes>
           <Route path='/' element={<StartMenu />} />
-          <Route path='/gallery' element={<Gallery />} />
           <Route path='/quiz-menu' element={<QuizMenu />} />
+          <Route path='/gallery' element={<Gallery />} />
 
           {/* Routes for each quiz, passing the appropriate data */}
           <Route path='/nation-quiz' element={<QuizPage title="All Nations Quiz" flags={Allnations} />} />

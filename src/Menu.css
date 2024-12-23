@@ -5,15 +5,7 @@
   flex-direction: column;
   align-items: center;
   margin-right: 40%;
-}
-
-.globe-container {
-  position: absolute; 
-  top: 25%; 
-  left: 55%; 
-  transform: translateX(-50%); 
-  width: 300px; 
-  z-index: 0; 
+  
 }
 
 .start-menu h1{
@@ -24,6 +16,15 @@
   letter-spacing: 4px;
   color: #393232;
 } 
+
+.globe-container {
+  position: absolute; 
+  top: 25%; 
+  left: 55%; 
+  transform: translateX(-50%); 
+  width: 15%; 
+  z-index: 0; 
+}
 
 .undertitle-text {
   font-family: "Anton SC", sans-serif;
@@ -44,8 +45,8 @@
     width: 350px; 
     background-color:#2D3250;
     color: #F9E8D9;
-    padding: 50px;
-    margin-top: 50px;
+    padding: 40px;
+    margin-top: 40px;
     margin-inline: 30px;
     font-size: 1.8em;
     border-radius: 20px;
