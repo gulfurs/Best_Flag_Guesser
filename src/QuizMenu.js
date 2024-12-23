@@ -15,12 +15,13 @@ function QuizMenu() {
       <div className="quiz-menu">
           <h1>Select Your Quiz</h1>
           <div className="quiz-buttons-container">
+               <Link to="/nation-quiz">
+                  <button className="quiz-button">Nations Quiz</button>
+              </Link>
               <Link to="/subnations-quiz">
                   <button className="quiz-button">Subnation Quiz</button>
               </Link>
-              <Link to="/nations-quiz-list">
-                  <button className="quiz-button">Nations Quiz</button>
-              </Link>
+
               </div>
               <div className="dropdown-container">
                   <button className="quiz-button dropdown-button" onClick={toggleDropdown}>
