@@ -35,6 +35,12 @@ function QuizMenu() {
                           <Link to="/russia-quiz">
                               <button className="dropdown-item">Russian Federal Subjects Quiz</button>
                           </Link>
+                          <Link to="/brazil-quiz">
+                              <button className="dropdown-item">Brazilian State Flags Quiz</button>
+                          </Link>
+                          <Link to="/japan-quiz">
+                              <button className="dropdown-item">Japanese Prefecture Flags Quiz</button>
+                          </Link>
                           {/* Add more specific nation quizzes here */}
                       </div>
                   )}

@@ -10,6 +10,8 @@ import { Allnations } from './All_nations';
 import { subnations } from './All_subnations';
 import { Russia_flags } from './Russia_flags';
 import { US_State_Flags } from './US_State_Flags';
+import { Brazil_flags } from './Brazil_flags';
+import { Japan_flags } from './Japan_flags';
 
 function App() {
   return (
@@ -27,9 +29,11 @@ function App() {
 
           {/* Routes for each quiz, passing the appropriate data */}
           <Route path='/nation-quiz' element={<QuizPage title="All Nations Quiz" flags={Allnations} />} />
+          <Route path='/subnations-quiz' element={<QuizPage title="Subnations Quiz" flags={subnations} />} />
           <Route path='/us-state-quiz' element={<QuizPage title="US State Flags Quiz" flags={US_State_Flags} />} />
           <Route path='/russia-quiz' element={<QuizPage title="Russian Federal Subjects Quiz" flags={Russia_flags} />} />
-          <Route path='/subnations-quiz' element={<QuizPage title="Subnations Quiz" flags={subnations} />} />
+          <Route path='/brazil-quiz' element={<QuizPage title="Brazilian State Flags Quiz" flags={Brazil_flags} />} />
+          <Route path='/japan-quiz' element={<QuizPage title="Japanese Prefecture Flags Quiz" flags={Japan_flags} />} />
         </Routes>
       </div>
     </Router>
