@@ -9,10 +9,15 @@ import QuizPage from './QuizPage';
 //import { Allnations } from './All_nations';
 import Allnations from "./Data/All_nations_metadata.json";
 
+//import { US_State_Flags } from './US_State_Flags';
+//import { Russia_flags } from './Russia_flags';
+//import { Brazil_flags } from './Brazil_flags';
+import US_State_Flags from "./Data/us_states_metadata.json";
+import Russia_flags from "./Data/russian_federal_subjects_metadata.json";
+import Brazil_flags  from "./Data/brazil_states_metadata.json";
+
 import { subnations } from './All_subnations';
-import { Russia_flags } from './Russia_flags';
-import { US_State_Flags } from './US_State_Flags';
-import { Brazil_flags } from './Brazil_flags';
+
 import { Japan_flags } from './Japan_flags';
 
 function App() {

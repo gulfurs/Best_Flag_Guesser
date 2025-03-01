@@ -1,0 +1,246 @@
+[
+    {
+        "name": "alabama",
+        "image": "/flags/administrative_divisions/us_states/alabama.png"
+    },
+    {
+        "name": "alaska",
+        "image": "/flags/administrative_divisions/us_states/alaska.png"
+    },
+    {
+        "name": "arizona",
+        "image": "/flags/administrative_divisions/us_states/arizona.png"
+    },
+    {
+        "name": "arkansas",
+        "image": "/flags/administrative_divisions/us_states/arkansas.png"
+    },
+    {
+        "name": "california",
+        "image": "/flags/administrative_divisions/us_states/california.png"
+    },
+    {
+        "name": "colorado",
+        "image": "/flags/administrative_divisions/us_states/colorado.png"
+    },
+    {
+        "name": "connecticut",
+        "image": "/flags/administrative_divisions/us_states/connecticut.png"
+    },
+    {
+        "name": "delaware",
+        "image": "/flags/administrative_divisions/us_states/delaware.png"
+    },
+    {
+        "name": "florida",
+        "image": "/flags/administrative_divisions/us_states/florida.png"
+    },
+    {
+        "name": "georgia_(u.s._state)",
+        "image": "/flags/administrative_divisions/us_states/georgia_(u.s._state).png"
+    },
+    {
+        "name": "hawaii",
+        "image": "/flags/administrative_divisions/us_states/hawaii.png"
+    },
+    {
+        "name": "idaho",
+        "image": "/flags/administrative_divisions/us_states/idaho.png"
+    },
+    {
+        "name": "illinois",
+        "image": "/flags/administrative_divisions/us_states/illinois.png"
+    },
+    {
+        "name": "indiana",
+        "image": "/flags/administrative_divisions/us_states/indiana.png"
+    },
+    {
+        "name": "iowa",
+        "image": "/flags/administrative_divisions/us_states/iowa.png"
+    },
+    {
+        "name": "kansas",
+        "image": "/flags/administrative_divisions/us_states/kansas.png"
+    },
+    {
+        "name": "louisiana",
+        "image": "/flags/administrative_divisions/us_states/louisiana.png"
+    },
+    {
+        "name": "maine",
+        "image": "/flags/administrative_divisions/us_states/maine.png"
+    },
+    {
+        "name": "maryland",
+        "image": "/flags/administrative_divisions/us_states/maryland.png"
+    },
+    {
+        "name": "massachusetts",
+        "image": "/flags/administrative_divisions/us_states/massachusetts.png"
+    },
+    {
+        "name": "michigan",
+        "image": "/flags/administrative_divisions/us_states/michigan.png"
+    },
+    {
+        "name": "minnesota",
+        "image": "/flags/administrative_divisions/us_states/minnesota.png"
+    },
+    {
+        "name": "mississippi",
+        "image": "/flags/administrative_divisions/us_states/mississippi.png"
+    },
+    {
+        "name": "missouri",
+        "image": "/flags/administrative_divisions/us_states/missouri.png"
+    },
+    {
+        "name": "montana",
+        "image": "/flags/administrative_divisions/us_states/montana.png"
+    },
+    {
+        "name": "nebraska",
+        "image": "/flags/administrative_divisions/us_states/nebraska.png"
+    },
+    {
+        "name": "nevada",
+        "image": "/flags/administrative_divisions/us_states/nevada.png"
+    },
+    {
+        "name": "new_hampshire",
+        "image": "/flags/administrative_divisions/us_states/new_hampshire.png"
+    },
+    {
+        "name": "new_jersey",
+        "image": "/flags/administrative_divisions/us_states/new_jersey.png"
+    },
+    {
+        "name": "new_mexico",
+        "image": "/flags/administrative_divisions/us_states/new_mexico.png"
+    },
+    {
+        "name": "new_york_(state)",
+        "image": "/flags/administrative_divisions/us_states/new_york_(state).png"
+    },
+    {
+        "name": "north_carolina",
+        "image": "/flags/administrative_divisions/us_states/north_carolina.png"
+    },
+    {
+        "name": "north_dakota",
+        "image": "/flags/administrative_divisions/us_states/north_dakota.png"
+    },
+    {
+        "name": "ohio",
+        "image": "/flags/administrative_divisions/us_states/ohio.png"
+    },
+    {
+        "name": "oklahoma",
+        "image": "/flags/administrative_divisions/us_states/oklahoma.png"
+    },
+    {
+        "name": "oregon",
+        "image": "/flags/administrative_divisions/us_states/oregon.png"
+    },
+    {
+        "name": "pennsylvania",
+        "image": "/flags/administrative_divisions/us_states/pennsylvania.png"
+    },
+    {
+        "name": "rhode_island",
+        "image": "/flags/administrative_divisions/us_states/rhode_island.png"
+    },
+    {
+        "name": "south_carolina",
+        "image": "/flags/administrative_divisions/us_states/south_carolina.png"
+    },
+    {
+        "name": "south_dakota",
+        "image": "/flags/administrative_divisions/us_states/south_dakota.png"
+    },
+    {
+        "name": "tennessee",
+        "image": "/flags/administrative_divisions/us_states/tennessee.png"
+    },
+    {
+        "name": "texas",
+        "image": "/flags/administrative_divisions/us_states/texas.png"
+    },
+    {
+        "name": "utah",
+        "image": "/flags/administrative_divisions/us_states/utah.png"
+    },
+    {
+        "name": "vermont",
+        "image": "/flags/administrative_divisions/us_states/vermont.png"
+    },
+    {
+        "name": "virginia",
+        "image": "/flags/administrative_divisions/us_states/virginia.png"
+    },
+    {
+        "name": "washington_(state)",
+        "image": "/flags/administrative_divisions/us_states/washington_(state).png"
+    },
+    {
+        "name": "wisconsin",
+        "image": "/flags/administrative_divisions/us_states/wisconsin.png"
+    },
+    {
+        "name": "wyoming",
+        "image": "/flags/administrative_divisions/us_states/wyoming.png"
+    },
+    {
+        "name": "the_district_of_columbia",
+        "image": "/flags/administrative_divisions/us_states/the_district_of_columbia.png"
+    },
+    {
+        "name": "american_samoa",
+        "image": "/flags/administrative_divisions/us_states/american_samoa.png"
+    },
+    {
+        "name": "northern_mariana_islands",
+        "image": "/flags/administrative_divisions/us_states/northern_mariana_islands.png"
+    },
+    {
+        "name": "puerto_rico",
+        "image": "/flags/administrative_divisions/us_states/puerto_rico.png"
+    },
+    {
+        "name": "the_united_states_virgin_islands",
+        "image": "/flags/administrative_divisions/us_states/the_united_states_virgin_islands.png"
+    },
+    {
+        "name": "navajo_nation",
+        "image": "/flags/administrative_divisions/us_states/navajo_nation.png"
+    },
+    {
+        "name": "arapaho_nation",
+        "image": "/flags/administrative_divisions/us_states/arapaho_nation.png"
+    },
+    {
+        "name": "pine_ridge_indian_reservation",
+        "image": "/flags/administrative_divisions/us_states/pine_ridge_indian_reservation.png"
+    },
+    {
+        "name": "tohono_oʼodham_nation",
+        "image": "/flags/administrative_divisions/us_states/tohono_oʼodham_nation.png"
+    },
+    {
+        "name": "blackfeet_nation",
+        "image": "/flags/administrative_divisions/us_states/blackfeet_nation.png"
+    },
+    {
+        "name": "iroquois_confederacy",
+        "image": "/flags/administrative_divisions/us_states/iroquois_confederacy.png"
+    },
+    {
+        "name": "midway_atoll",
+        "image": "/flags/administrative_divisions/us_states/midway_atoll.png"
+    },
+    {
+        "name": "wake_island",
+        "image": "/flags/administrative_divisions/us_states/wake_island.png"
+    }
+]

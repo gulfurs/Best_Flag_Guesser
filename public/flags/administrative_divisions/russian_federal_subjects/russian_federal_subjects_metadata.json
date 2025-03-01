@@ -1,0 +1,302 @@
+[
+    {
+        "name": "adygea_",
+        "image": "/russian_federal_subjects/adygea_.png"
+    },
+    {
+        "name": "bashkortostan_",
+        "image": "/russian_federal_subjects/bashkortostan_.png"
+    },
+    {
+        "name": "buryatia_",
+        "image": "/russian_federal_subjects/buryatia_.png"
+    },
+    {
+        "name": "chechnya_",
+        "image": "/russian_federal_subjects/chechnya_.png"
+    },
+    {
+        "name": "chuvashia_",
+        "image": "/russian_federal_subjects/chuvashia_.png"
+    },
+    {
+        "name": "crimea_",
+        "image": "/russian_federal_subjects/crimea_.png"
+    },
+    {
+        "name": "dagestan_",
+        "image": "/russian_federal_subjects/dagestan_.png"
+    },
+    {
+        "name": "the_donetsk_people's_republic",
+        "image": "/russian_federal_subjects/the_donetsk_people's_republic.png"
+    },
+    {
+        "name": "kabardino-balkaria_",
+        "image": "/russian_federal_subjects/kabardino-balkaria_.png"
+    },
+    {
+        "name": "kalmykia_",
+        "image": "/russian_federal_subjects/kalmykia_.png"
+    },
+    {
+        "name": "karachay-cherkessia_",
+        "image": "/russian_federal_subjects/karachay-cherkessia_.png"
+    },
+    {
+        "name": "karelia_",
+        "image": "/russian_federal_subjects/karelia_.png"
+    },
+    {
+        "name": "khakassia_",
+        "image": "/russian_federal_subjects/khakassia_.png"
+    },
+    {
+        "name": "the_komi_republic_",
+        "image": "/russian_federal_subjects/the_komi_republic_.png"
+    },
+    {
+        "name": "the_lugansk_people's_republic_",
+        "image": "/russian_federal_subjects/the_lugansk_people's_republic_.png"
+    },
+    {
+        "name": "mari_el_",
+        "image": "/russian_federal_subjects/mari_el_.png"
+    },
+    {
+        "name": "north_ossetia_-_alania",
+        "image": "/russian_federal_subjects/north_ossetia_-_alania.png"
+    },
+    {
+        "name": "sakha_",
+        "image": "/russian_federal_subjects/sakha_.png"
+    },
+    {
+        "name": "tatarstan_",
+        "image": "/russian_federal_subjects/tatarstan_.png"
+    },
+    {
+        "name": "tuva_",
+        "image": "/russian_federal_subjects/tuva_.png"
+    },
+    {
+        "name": "udmurtia_",
+        "image": "/russian_federal_subjects/udmurtia_.png"
+    },
+    {
+        "name": "altai_krai_",
+        "image": "/russian_federal_subjects/altai_krai_.png"
+    },
+    {
+        "name": "khabarovsk_krai_",
+        "image": "/russian_federal_subjects/khabarovsk_krai_.png"
+    },
+    {
+        "name": "krasnodar_krai_",
+        "image": "/russian_federal_subjects/krasnodar_krai_.png"
+    },
+    {
+        "name": "krasnoyarsk_krai_",
+        "image": "/russian_federal_subjects/krasnoyarsk_krai_.png"
+    },
+    {
+        "name": "perm_krai_",
+        "image": "/russian_federal_subjects/perm_krai_.png"
+    },
+    {
+        "name": "stavropol_krai_",
+        "image": "/russian_federal_subjects/stavropol_krai_.png"
+    },
+    {
+        "name": "zabaykalsky_krai_",
+        "image": "/russian_federal_subjects/zabaykalsky_krai_.png"
+    },
+    {
+        "name": "arkhangelsk_oblast_",
+        "image": "/russian_federal_subjects/arkhangelsk_oblast_.png"
+    },
+    {
+        "name": "astrakhan_oblast_",
+        "image": "/russian_federal_subjects/astrakhan_oblast_.png"
+    },
+    {
+        "name": "belgorod_oblast_",
+        "image": "/russian_federal_subjects/belgorod_oblast_.png"
+    },
+    {
+        "name": "bryansk_oblast_",
+        "image": "/russian_federal_subjects/bryansk_oblast_.png"
+    },
+    {
+        "name": "chelyabinsk_oblast_",
+        "image": "/russian_federal_subjects/chelyabinsk_oblast_.png"
+    },
+    {
+        "name": "irkutsk_oblast_",
+        "image": "/russian_federal_subjects/irkutsk_oblast_.png"
+    },
+    {
+        "name": "ivanovo_oblast_",
+        "image": "/russian_federal_subjects/ivanovo_oblast_.png"
+    },
+    {
+        "name": "kaliningrad_oblast_",
+        "image": "/russian_federal_subjects/kaliningrad_oblast_.png"
+    },
+    {
+        "name": "kaluga_oblast_",
+        "image": "/russian_federal_subjects/kaluga_oblast_.png"
+    },
+    {
+        "name": "kemerovo_oblast_",
+        "image": "/russian_federal_subjects/kemerovo_oblast_.png"
+    },
+    {
+        "name": "kherson_oblast_",
+        "image": "/russian_federal_subjects/kherson_oblast_.png"
+    },
+    {
+        "name": "kirov_oblast_",
+        "image": "/russian_federal_subjects/kirov_oblast_.png"
+    },
+    {
+        "name": "kostroma_oblast_",
+        "image": "/russian_federal_subjects/kostroma_oblast_.png"
+    },
+    {
+        "name": "kurgan_oblast_",
+        "image": "/russian_federal_subjects/kurgan_oblast_.png"
+    },
+    {
+        "name": "kursk_oblast_",
+        "image": "/russian_federal_subjects/kursk_oblast_.png"
+    },
+    {
+        "name": "leningrad_oblast_",
+        "image": "/russian_federal_subjects/leningrad_oblast_.png"
+    },
+    {
+        "name": "lipetsk_oblast_",
+        "image": "/russian_federal_subjects/lipetsk_oblast_.png"
+    },
+    {
+        "name": "magadan_oblast_",
+        "image": "/russian_federal_subjects/magadan_oblast_.png"
+    },
+    {
+        "name": "moscow_oblast_",
+        "image": "/russian_federal_subjects/moscow_oblast_.png"
+    },
+    {
+        "name": "murmansk_oblast_",
+        "image": "/russian_federal_subjects/murmansk_oblast_.png"
+    },
+    {
+        "name": "nizhny_novgorod_oblast_",
+        "image": "/russian_federal_subjects/nizhny_novgorod_oblast_.png"
+    },
+    {
+        "name": "orenburg_oblast_",
+        "image": "/russian_federal_subjects/orenburg_oblast_.png"
+    },
+    {
+        "name": "oryol_oblast_",
+        "image": "/russian_federal_subjects/oryol_oblast_.png"
+    },
+    {
+        "name": "penza_oblast_",
+        "image": "/russian_federal_subjects/penza_oblast_.png"
+    },
+    {
+        "name": "pskov_oblast_",
+        "image": "/russian_federal_subjects/pskov_oblast_.png"
+    },
+    {
+        "name": "rostov_oblast_",
+        "image": "/russian_federal_subjects/rostov_oblast_.png"
+    },
+    {
+        "name": "ryazan_oblast_",
+        "image": "/russian_federal_subjects/ryazan_oblast_.png"
+    },
+    {
+        "name": "sakhalin_oblast_",
+        "image": "/russian_federal_subjects/sakhalin_oblast_.png"
+    },
+    {
+        "name": "samara_oblast_",
+        "image": "/russian_federal_subjects/samara_oblast_.png"
+    },
+    {
+        "name": "saratov_oblast",
+        "image": "/russian_federal_subjects/saratov_oblast.png"
+    },
+    {
+        "name": "smolensk_oblast_",
+        "image": "/russian_federal_subjects/smolensk_oblast_.png"
+    },
+    {
+        "name": "sverdlovsk_oblast_",
+        "image": "/russian_federal_subjects/sverdlovsk_oblast_.png"
+    },
+    {
+        "name": "tambov_oblast_",
+        "image": "/russian_federal_subjects/tambov_oblast_.png"
+    },
+    {
+        "name": "tula_oblast_",
+        "image": "/russian_federal_subjects/tula_oblast_.png"
+    },
+    {
+        "name": "tyumen_oblast_",
+        "image": "/russian_federal_subjects/tyumen_oblast_.png"
+    },
+    {
+        "name": "ulyanovsk_oblast_",
+        "image": "/russian_federal_subjects/ulyanovsk_oblast_.png"
+    },
+    {
+        "name": "vladimir_oblast_",
+        "image": "/russian_federal_subjects/vladimir_oblast_.png"
+    },
+    {
+        "name": "volgograd_oblast_",
+        "image": "/russian_federal_subjects/volgograd_oblast_.png"
+    },
+    {
+        "name": "yaroslavl_oblast_",
+        "image": "/russian_federal_subjects/yaroslavl_oblast_.png"
+    },
+    {
+        "name": "zaporozhye_oblast_",
+        "image": "/russian_federal_subjects/zaporozhye_oblast_.png"
+    },
+    {
+        "name": "moscow_",
+        "image": "/russian_federal_subjects/moscow_.png"
+    },
+    {
+        "name": "saint_petersburg_",
+        "image": "/russian_federal_subjects/saint_petersburg_.png"
+    },
+    {
+        "name": "sevastopol_",
+        "image": "/russian_federal_subjects/sevastopol_.png"
+    },
+    {
+        "name": "the_jewish_autonomous_oblast_",
+        "image": "/russian_federal_subjects/the_jewish_autonomous_oblast_.png"
+    },
+    {
+        "name": "chukotka_autonomous_okrug_",
+        "image": "/russian_federal_subjects/chukotka_autonomous_okrug_.png"
+    },
+    {
+        "name": "nenets_autonomous_okrug_",
+        "image": "/russian_federal_subjects/nenets_autonomous_okrug_.png"
+    },
+    {
+        "name": "yamalo-nenets_autonomous_okrug_",
+        "image": "/russian_federal_subjects/yamalo-nenets_autonomous_okrug_.png"
+    }
+]

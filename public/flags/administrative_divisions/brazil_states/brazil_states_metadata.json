@@ -1,0 +1,38 @@
+[
+    {
+        "name": "amapá",
+        "image": "/brazil_states/amapá.png"
+    },
+    {
+        "name": "maranhão",
+        "image": "/brazil_states/maranhão.png"
+    },
+    {
+        "name": "mato_grosso_do_sul",
+        "image": "/brazil_states/mato_grosso_do_sul.png"
+    },
+    {
+        "name": "minas_gerais",
+        "image": "/brazil_states/minas_gerais.png"
+    },
+    {
+        "name": "paraná",
+        "image": "/brazil_states/paraná.png"
+    },
+    {
+        "name": "pernambuco",
+        "image": "/brazil_states/pernambuco.png"
+    },
+    {
+        "name": "santa_catarina",
+        "image": "/brazil_states/santa_catarina.png"
+    },
+    {
+        "name": "sergipe",
+        "image": "/brazil_states/sergipe.png"
+    },
+    {
+        "name": "tocantins",
+        "image": "/brazil_states/tocantins.png"
+    }
+]
