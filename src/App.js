@@ -6,7 +6,9 @@ import QuizMenu from './QuizMenu';
 import QuizPage from './QuizPage';
 
 // Import the data for different quizzes
-import { Allnations } from './All_nations';
+//import { Allnations } from './All_nations';
+import Allnations from "./Data/All_nations_metadata.json";
+
 import { subnations } from './All_subnations';
 import { Russia_flags } from './Russia_flags';
 import { US_State_Flags } from './US_State_Flags';
